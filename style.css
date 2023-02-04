@@ -1,3 +1,11 @@
+
+.loader{
+  text-align: center;
+}
+.loader img{
+   height : 292px;
+  width : 292px;
+}
 h1{
   color: rgb(53, 66, 136); 
   text-align: center;
@@ -9,7 +17,7 @@ h1{
   border-bottom: 5px solid;
   padding: 30px;
 }
-#page {background-color: rgb(117, 30, 30);
+#page {background-color: rgb(114, 58, 114);
   color: rgb(36, 190, 183);
   padding: 1em;}
 #mainNav {
