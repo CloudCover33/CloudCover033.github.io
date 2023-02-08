@@ -1,43 +1,45 @@
+#backgroundImage {
+  background-image: url("21.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: centers;
+}
+body{
+  color: #666666;
+  background-color: black;
+  padding: 1em;
+  margin: 0px;
+}
+header, footer, nav, div {
+  display: block;
+}
+#align {
+  text-align: center;
+  padding-bottom: 50%;
 
-.loader{
-  text-align: center;
 }
-.loader img{
-   height : 500px;
-  width : 500px;
-}
-h1{
-  color: rgb(53, 66, 136); 
-  text-align: center;
-  font-style: italic;
-  font-weight: 300;
+  nav, footer {
+    clear: both;
+    color: #ffffff;
+    background-color: black;
+    height: 30px;}
+    nav ul {
+      text-align: center;
+      margin: 0px;
+      padding: 5px 5px;}
+    nav li {
+      display: inline;
+      margin-right: 150px;}
+    nav li a {
+      color: #ffffff;}
+    nav li a:hover, nav li a.current {
+      color: #b45f5f;}
+      a {
+        color: #5d397a;
+        text-decoration: none;}
+     footer {
+          font-size: 80%;
+          text-align: center;
+          padding: 7px 7px 7px 7px;}
 
-}
-#page {background-color: black;
-  color: rgb(36, 190, 183);
-  padding: 1em;}
-#mainNav {
-  border-top: 5px solid blue;
-  border-bottom: 3px solid rgb(187, 156, 156);
-  padding: 10px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-#altsec {
-  text-align: center;
-  padding-left: 50px;
-  padding-right: 50px;
-}
-a{
-  padding-left: 50px;
-  padding-right: 50px;
-}
-  a:link {color: blue; text-decoration: none;}
-a:visited {color: rgb(114, 51, 82); text-decoration: none;}
-a:hover {color: rgb(209, 186, 186); text-decoration: underline;}
-a:active {color: rgb(55, 19, 90); text-decoration: none;}
-#sec{
-  text-align: center;
-  padding-top: 50px;
-}
-@media (max-width: 600px) { .sidebar { display:none;}}
+
