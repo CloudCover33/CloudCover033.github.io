@@ -40,3 +40,4 @@ a:active {color: rgb(55, 19, 90); text-decoration: none;}
   text-align: center;
   padding-top: 50px;
 }
+@media (max-width: 600px) { .sidebar { display:none;}}
