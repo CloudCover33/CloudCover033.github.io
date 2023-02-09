@@ -4,21 +4,25 @@ body{
   padding: 1em;
   margin: 0%;
   width: 100%;
-   text-align: center;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  letter-spacing: 0.15em;
 }
 header, footer, nav, div {
   display: block;
 }
 nav{
   width: 100%;
-  padding-top: 5%;
-  padding-bottom: 5%;
+  height: 5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
   position: fixed;
   margin: 0%;
   color: #ffffff;
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   text-align: center;
-  z-index: 10;
+  border-bottom-style: dashed;
+  z-index: 15;
 }
 nav ul {
       text-align: center;
@@ -48,13 +52,20 @@ footer {
   text-align: center;
 }
 #two{
-  text-align: center;
   background-color: rgb(150, 150, 150);
+  font-family: "Courier New", Courier, monospace;
+  letter-spacing: 0.15em;
 }
 #three{
-  padding: 30px;
+  padding-top: 0%;
+  padding-bottom: 3%;
+  width: 100%;
+  height: 5%;
   color: black;
-  border-bottom-color: black;
+  position: fixed;
+  background-color: rgb(150, 150, 150);
+  border-bottom-style: dashed;
+  z-index: 13;
 }
 #four{
   text-align: center;
@@ -67,4 +78,16 @@ footer {
 img{
   position: relative;
   padding-top: 15%;
+}
+#six{
+  font-weight: normal;
+  font-style: italic;
+  color: aliceblue;
+}
+#seven{
+  color: black;
+}
+#eight{
+  padding-top: 30%;
+  padding-bottom: 30%;
 }
