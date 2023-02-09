@@ -1,45 +1,70 @@
-#backgroundImage {
-  background-image: url("21.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: centers;
-}
 body{
   color: #666666;
   background-color: black;
   padding: 1em;
-  margin: 0px;
+  margin: 0%;
+  width: 100%;
+   text-align: center;
 }
 header, footer, nav, div {
   display: block;
 }
-#align {
+nav{
+  width: 100%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  position: fixed;
+  margin: 0%;
+  color: #ffffff;
+  background-color: black;
   text-align: center;
-  padding-bottom: 50%;
-
+  z-index: 10;
 }
-  nav, footer {
-    clear: both;
-    color: #ffffff;
-    background-color: black;
-    height: 30px;}
-    nav ul {
+nav ul {
       text-align: center;
-      margin: 0px;
-      padding: 5px 5px;}
-    nav li {
+      margin-right: 10%;
+    }
+nav li {
       display: inline;
-      margin-right: 150px;}
-    nav li a {
+      margin-left: 10%;
+      }
+nav li a {
       color: #ffffff;}
-    nav li a:hover, nav li a.current {
+nav li a:hover, nav li a.current {
       color: #b45f5f;}
-      a {
+a {
         color: #5d397a;
         text-decoration: none;}
-     footer {
-          font-size: 80%;
-          text-align: center;
-          padding: 7px 7px 7px 7px;}
+footer {
+    position: relative;
+    color: #ffffff;
+    font-size: 80%;
+    text-align: center;
+    padding-top: 5%;
+  }
 
-
+#one{
+  padding: 20px 20px 20px 20px;
+  text-align: center;
+}
+#two{
+  text-align: center;
+  background-color: rgb(150, 150, 150);
+}
+#three{
+  padding: 30px;
+  color: black;
+  border-bottom-color: black;
+}
+#four{
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+}
+#five{
+  padding-top: 5%;
+  color: black;
+}
+img{
+  position: relative;
+  padding-top: 15%;
+}
