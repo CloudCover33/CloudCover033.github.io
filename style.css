@@ -102,3 +102,25 @@ p{
   font-family: "Courier New", Courier, monospace;
   letter-spacing: 0.15em;
 }
+ul.icons {
+  cursor: default;
+  list-style: none;
+  padding-left: 0;
+}
+
+  ul.icons li {
+    display: inline-block;
+    padding: 0 0.75em 0 0;
+  }
+
+    ul.icons li:last-child {
+      padding-right: 0;
+    }
+
+    ul.icons li > a, ul.icons li > span {
+      border: 0;
+    }
+
+      ul.icons li > a .label, ul.icons li > span .label {
+        display: none;
+      }
